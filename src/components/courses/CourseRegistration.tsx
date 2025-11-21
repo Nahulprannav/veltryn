@@ -41,11 +41,15 @@ export function CourseRegistration({ courseId, courseName }: CourseRegistrationP
     registrations.push(newRegistration);
     // write via realtime helper (Firestore if configured, otherwise localStorage + events)
     // use dynamic import promise to avoid transform issues with await in some build environments
-    await import('../../utils/firebase')
-      .then((fb) => fb.addRealtimeDoc('courseRegistrations', newRegistration))
-      .catch(() => {
-        localStorage.setItem('courseRegistrations', JSON.stringify(registrations));
-      });
+    await import('../../utils/socket')
+      .then((s) => s.addDoc('courseRegistrations', newRegistration))
+      .catch(() =>
+        import('../../utils/firebase')
+          .then((fb) => fb.addRealtimeDoc('courseRegistrations', newRegistration))
+          .catch(() => {
+            localStorage.setItem('courseRegistrations', JSON.stringify(registrations));
+          })
+      );
 
     // Simulate sending confirmation email
     console.log(`Confirmation email sent to ${user.email} for course: ${courseName}`);

@@ -26,13 +26,18 @@ export function Contact() {
       };
       // write via realtime helper (Firestore if configured, otherwise localStorage + events)
       // use dynamic import without top-level await to avoid transform issues
-      await import('../utils/firebase')
-        .then((fb) => fb.addRealtimeDoc('messages', newMsg))
-        .catch(() => {
-          const msgs = JSON.parse(localStorage.getItem('messages') || '[]');
-          msgs.push(newMsg);
-          localStorage.setItem('messages', JSON.stringify(msgs));
-        });
+      // Prefer a Socket.IO server if configured, then Firebase, then localStorage fallback
+      await import('../utils/socket')
+        .then((s) => s.addDoc('messages', newMsg))
+        .catch(() =>
+          import('../utils/firebase')
+            .then((fb) => fb.addRealtimeDoc('messages', newMsg))
+            .catch(() => {
+              const msgs = JSON.parse(localStorage.getItem('messages') || '[]');
+              msgs.push(newMsg);
+              localStorage.setItem('messages', JSON.stringify(msgs));
+            })
+        );
     } catch (err) {
       // fallback: overwrite
       localStorage.setItem('messages', JSON.stringify([{ ...formData, createdAt: new Date().toISOString(), id: Math.random().toString(36).substr(2,9) }]));
