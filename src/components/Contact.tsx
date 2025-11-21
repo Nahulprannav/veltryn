@@ -11,7 +11,7 @@ export function Contact() {
   });
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     // In a real app, this would send to backend/database
     // persist message to localStorage messages array

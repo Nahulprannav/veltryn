@@ -16,7 +16,7 @@ export function CourseRegistration({ courseId, courseName }: CourseRegistrationP
   const [isRegistered, setIsRegistered] = useState(false);
   const [error, setError] = useState('');
 
-  const handleRegister = (e: React.FormEvent) => {
+  const handleRegister = async (e: React.FormEvent) => {
     e.preventDefault();
     
     if (!user) {
