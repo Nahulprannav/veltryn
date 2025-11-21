@@ -1,4 +1,5 @@
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import { hashPassword, isHashedPassword } from '../utils/hash';
 
 interface User {
   id: string;
@@ -57,6 +58,27 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     }
   }, [user]);
 
+  // Migrate any plain-text passwords stored in localStorage to hashed values
+  useEffect(() => {
+    let mounted = true;
+    (async () => {
+      const users = getUsers();
+      let changed = false;
+      for (let u of users) {
+        if (u.password && !isHashedPassword(u.password)) {
+          u.password = await hashPassword(u.password);
+          changed = true;
+        }
+      }
+      if (changed && mounted) {
+        localStorage.setItem('users', JSON.stringify(users));
+      }
+    })();
+    return () => {
+      mounted = false;
+    };
+  }, []);
+
   const login = async (identifier: string, password?: string) => {
     // Mock authentication with localStorage-backed users
     await new Promise((resolve) => setTimeout(resolve, 300));
@@ -85,15 +107,18 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       throw new Error('User not found');
     }
 
-    // If user exists and has a password, require it
+    // If user exists and has a password, require it (compare hashes)
     if (existing.password) {
-      if (!password || existing.password !== password) {
+      if (!password) {
         throw new Error('Invalid credentials');
       }
+      const hashed = await hashPassword(password);
+      if (existing.password !== hashed) {
+        throw new Error('Invalid credentials');
+      }
+      // mark admin based on raw provided password (demo-only)
+      existing.isAdmin = existing.email === ADMIN_EMAIL && password === ADMIN_PASSWORD;
     }
-
-    // mark admin flag if matches credentials
-    existing.isAdmin = existing.email === ADMIN_EMAIL && password === ADMIN_PASSWORD;
 
     setUser(existing as User);
   };
@@ -110,12 +135,13 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     }
 
     const isAdmin = email === ADMIN_EMAIL && password === ADMIN_PASSWORD;
+    const hashed = await hashPassword(password || '');
     const newUser = {
       id: Math.random().toString(36).substr(2, 9),
       email,
       displayName: displayName || email.split('@')[0],
       isAdmin,
-      password,
+      password: hashed,
     };
 
     users.push(newUser);
