@@ -1,0 +1,164 @@
+{
+  "courseId": "mern",
+  "courseName": "MERN Stack Development - Complete Mastery",
+  "description": "Master full-stack development with MongoDB, Express, React, and Node.js from scratch to deployment.",
+  "duration": "16 weeks",
+  "level": "Intermediate",
+  "students": "3,800+",
+  "sections": [
+    {
+      "section": "HTML - 20 Levels",
+      "levels": [
+        {"level": 1, "title": "Intro to HTML", "assignment": "Write a basic webpage.", "points": 10},
+        {"level": 2, "title": "Tags & Elements", "assignment": "Use 10 different tags.", "points": 10},
+        {"level": 3, "title": "Headings & Paragraphs", "assignment": "Create an article layout.", "points": 10},
+        {"level": 4, "title": "Links", "assignment": "Create page navigation links.", "points": 10},
+        {"level": 5, "title": "Images", "assignment": "Add 3 images with alt text.", "points": 10},
+        {"level": 6, "title": "Lists", "assignment": "Create menu using lists.", "points": 10},
+        {"level": 7, "title": "Tables", "assignment": "Make a student mark table.", "points": 20},
+        {"level": 8, "title": "Forms", "assignment": "Build login form.", "points": 20},
+        {"level": 9, "title": "Input Types", "assignment": "Build registration form.", "points": 20},
+        {"level": 10, "title": "Semantic Elements", "assignment": "Create a blog layout.", "points": 20},
+        {"level": 11, "title": "Audio & Video", "assignment": "Embed video + audio.", "points": 10},
+        {"level": 12, "title": "Iframes", "assignment": "Embed map with iframe.", "points": 10},
+        {"level": 13, "title": "Meta Tags", "assignment": "Add SEO meta tags.", "points": 10},
+        {"level": 14, "title": "Buttons", "assignment": "Create multiple button styles.", "points": 10},
+        {"level": 15, "title": "Entities & Symbols", "assignment": "Use 10 entities.", "points": 10},
+        {"level": 16, "title": "Accessibility Basics", "assignment": "Make accessible form.", "points": 20},
+        {"level": 17, "title": "HTML Layout", "assignment": "Create full page structure.", "points": 10},
+        {"level": 18, "title": "HTML Forms – Validation", "assignment": "Add required attribute.", "points": 10},
+        {"level": 19, "title": "HTML5 New Features", "assignment": "Use nav, article, header.", "points": 10},
+        {"level": 20, "title": "Mini Project", "assignment": "Create a portfolio (HTML only).", "points": 50}
+      ]
+    },
+    {
+      "section": "CSS - 20 Levels",
+      "levels": [
+        {"level": 21, "title": "Intro to CSS", "assignment": "Apply color + background.", "points": 10},
+        {"level": 22, "title": "Selectors", "assignment": "Use class, id, universal.", "points": 10},
+        {"level": 23, "title": "Colors & Units", "assignment": "Use px, rem, %, vw.", "points": 10},
+        {"level": 24, "title": "Box Model", "assignment": "Demonstrate padding/margin.", "points": 10},
+        {"level": 25, "title": "Display", "assignment": "Block vs inline demo.", "points": 10},
+        {"level": 26, "title": "Position", "assignment": "Create a fixed navbar.", "points": 20},
+        {"level": 27, "title": "Flexbox", "assignment": "Create a flex gallery.", "points": 20},
+        {"level": 28, "title": "CSS Grid", "assignment": "Create 3-column layout.", "points": 20},
+        {"level": 29, "title": "Typography", "assignment": "Import Google fonts.", "points": 10},
+        {"level": 30, "title": "Borders & Shadows", "assignment": "Create card UI.", "points": 10},
+        {"level": 31, "title": "Backgrounds", "assignment": "Add gradient background.", "points": 10},
+        {"level": 32, "title": "Hover Effects", "assignment": "Create button hover effects.", "points": 10},
+        {"level": 33, "title": "Transitions", "assignment": "Animate hover transitions.", "points": 20},
+        {"level": 34, "title": "Animations", "assignment": "Create a loading animation.", "points": 30},
+        {"level": 35, "title": "Media Queries", "assignment": "Make mobile responsive layout.", "points": 30},
+        {"level": 36, "title": "CSS Variables", "assignment": "Create theme colors.", "points": 20},
+        {"level": 37, "title": "Z-index", "assignment": "Layer 3 elements.", "points": 10},
+        {"level": 38, "title": "Forms Styling", "assignment": "Style login form.", "points": 20},
+        {"level": 39, "title": "Icons", "assignment": "Use FontAwesome icons.", "points": 10},
+        {"level": 40, "title": "Mini Project", "assignment": "Create a fully responsive website page.", "points": 50}
+      ]
+    },
+    {
+      "section": "JavaScript - 20 Levels",
+      "levels": [
+        {"level": 41, "title": "Intro to JS", "assignment": "Print your name.", "points": 10},
+        {"level": 42, "title": "Variables", "assignment": "Use var, let, const.", "points": 10},
+        {"level": 43, "title": "Data Types", "assignment": "Check types using typeof.", "points": 10},
+        {"level": 44, "title": "Operators", "assignment": "Simple calculator.", "points": 20},
+        {"level": 45, "title": "Conditions", "assignment": "Age eligibility program.", "points": 10},
+        {"level": 46, "title": "Loops", "assignment": "Print numbers 1–100.", "points": 10},
+        {"level": 47, "title": "Functions", "assignment": "Create add() function.", "points": 10},
+        {"level": 48, "title": "Array Basics", "assignment": "Store 5 items & print.", "points": 10},
+        {"level": 49, "title": "Array Methods", "assignment": "Use map, filter, reduce.", "points": 20},
+        {"level": 50, "title": "Objects", "assignment": "Create student object.", "points": 10},
+        {"level": 51, "title": "DOM", "assignment": "Change text using JS.", "points": 20},
+        {"level": 52, "title": "Events", "assignment": "Click button → show message.", "points": 10},
+        {"level": 53, "title": "Local Storage", "assignment": "Save user name in storage.", "points": 20},
+        {"level": 54, "title": "JSON", "assignment": "Convert object to JSON.", "points": 10},
+        {"level": 55, "title": "Fetch API", "assignment": "Fetch any free API.", "points": 20},
+        {"level": 56, "title": "Promises", "assignment": "Write your own promise.", "points": 20},
+        {"level": 57, "title": "Async/Await", "assignment": "Create async function.", "points": 20},
+        {"level": 58, "title": "ES6 Features", "assignment": "Use spread, arrow functions.", "points": 20},
+        {"level": 59, "title": "Error Handling", "assignment": "try-catch example.", "points": 10},
+        {"level": 60, "title": "Mini JS Project", "assignment": "Todo app.", "points": 50}
+      ]
+    },
+    {
+      "section": "MongoDB - 20 Levels",
+      "levels": [
+        {"level": 61, "title": "Introduction to MongoDB", "assignment": "Install MongoDB and create first database", "points": 10},
+        {"level": 62, "title": "CRUD Operations", "assignment": "Create, Read, Update, Delete documents", "points": 20},
+        {"level": 63, "title": "Query Operators", "assignment": "Use comparison and logical operators", "points": 20},
+        {"level": 64, "title": "Indexing", "assignment": "Create indexes for optimization", "points": 20},
+        {"level": 65, "title": "Aggregation Pipeline", "assignment": "Use $match, $group, $project", "points": 30},
+        {"level": 66, "title": "Data Modeling", "assignment": "Design schema for e-commerce", "points": 30},
+        {"level": 67, "title": "Relationships", "assignment": "Implement one-to-many relationship", "points": 20},
+        {"level": 68, "title": "MongoDB Atlas", "assignment": "Deploy database to cloud", "points": 20},
+        {"level": 69, "title": "Backup & Restore", "assignment": "Create backup and restore", "points": 20},
+        {"level": 70, "title": "Mini MongoDB Project", "assignment": "Build database for blog application", "points": 50}
+      ]
+    },
+    {
+      "section": "Node.js - 20 Levels",
+      "levels": [
+        {"level": 71, "title": "Node.js Basics", "assignment": "Create first Node app", "points": 10},
+        {"level": 72, "title": "Modules", "assignment": "Create and use custom modules", "points": 10},
+        {"level": 73, "title": "File System", "assignment": "Read and write files", "points": 20},
+        {"level": 74, "title": "HTTP Module", "assignment": "Create basic server", "points": 20},
+        {"level": 75, "title": "NPM", "assignment": "Install and use packages", "points": 10},
+        {"level": 76, "title": "Events", "assignment": "Create custom event emitter", "points": 20},
+        {"level": 77, "title": "Streams", "assignment": "Work with readable and writable streams", "points": 20},
+        {"level": 78, "title": "Async Patterns", "assignment": "Use callbacks, promises, async/await", "points": 20},
+        {"level": 79, "title": "Authentication", "assignment": "Implement JWT authentication", "points": 30},
+        {"level": 80, "title": "File Upload", "assignment": "Implement file upload with Multer", "points": 30}
+      ]
+    },
+    {
+      "section": "Express.js - 20 Levels",
+      "levels": [
+        {"level": 81, "title": "Express Basics", "assignment": "Create Express server", "points": 10},
+        {"level": 82, "title": "Routing", "assignment": "Create multiple routes", "points": 10},
+        {"level": 83, "title": "Middleware", "assignment": "Create custom middleware", "points": 20},
+        {"level": 84, "title": "MVC Pattern", "assignment": "Implement MVC structure", "points": 30},
+        {"level": 85, "title": "REST API", "assignment": "Build CRUD API", "points": 30},
+        {"level": 86, "title": "MongoDB Integration", "assignment": "Connect Express to MongoDB", "points": 20},
+        {"level": 87, "title": "Validation", "assignment": "Implement request validation", "points": 20},
+        {"level": 88, "title": "Error Handling", "assignment": "Create error handling middleware", "points": 20},
+        {"level": 89, "title": "Authentication", "assignment": "Implement auth middleware", "points": 30},
+        {"level": 90, "title": "Mini API Project", "assignment": "Build complete REST API", "points": 50}
+      ]
+    },
+    {
+      "section": "React.js - 20 Levels",
+      "levels": [
+        {"level": 91, "title": "React Basics", "assignment": "Create first React component", "points": 10},
+        {"level": 92, "title": "JSX", "assignment": "Use JSX syntax", "points": 10},
+        {"level": 93, "title": "Components", "assignment": "Create functional components", "points": 10},
+        {"level": 94, "title": "Props", "assignment": "Pass props between components", "points": 10},
+        {"level": 95, "title": "State", "assignment": "Use useState hook", "points": 20},
+        {"level": 96, "title": "Events", "assignment": "Handle click events", "points": 10},
+        {"level": 97, "title": "useEffect", "assignment": "Fetch data on component mount", "points": 20},
+        {"level": 98, "title": "React Router", "assignment": "Implement routing", "points": 20},
+        {"level": 99, "title": "Forms", "assignment": "Create controlled forms", "points": 20},
+        {"level": 100, "title": "State Management", "assignment": "Use Context API", "points": 30},
+        {"level": 101, "title": "API Integration", "assignment": "Connect to backend API", "points": 30},
+        {"level": 102, "title": "Authentication UI", "assignment": "Build login/signup pages", "points": 30},
+        {"level": 103, "title": "Protected Routes", "assignment": "Implement route protection", "points": 20},
+        {"level": 104, "title": "Deployment", "assignment": "Deploy React app", "points": 30}
+      ]
+    },
+    {
+      "section": "FINAL MERN PROJECTS - 10 Levels",
+      "levels": [
+        {"level": 105, "title": "Authentication System", "assignment": "JWT + React full auth", "points": 100},
+        {"level": 106, "title": "Todo App Fullstack", "assignment": "Complete CRUD application", "points": 100},
+        {"level": 107, "title": "Blog System", "assignment": "Posts, comments, authentication", "points": 100},
+        {"level": 108, "title": "E-commerce Website", "assignment": "Products, cart, checkout", "points": 100},
+        {"level": 109, "title": "Chat Application", "assignment": "Real-time messaging", "points": 100},
+        {"level": 110, "title": "Social Media Mini", "assignment": "Posts, likes, followers", "points": 100},
+        {"level": 111, "title": "Job Portal", "assignment": "Job listings and applications", "points": 100},
+        {"level": 112, "title": "Notes App + Cloud Upload", "assignment": "Notes with file upload", "points": 100},
+        {"level": 113, "title": "Student Management", "assignment": "Complete management system", "points": 100},
+        {"level": 114, "title": "Final Portfolio Project", "assignment": "Your unique full-stack application", "points": 100}
+      ]
+    }
+  ]
+}

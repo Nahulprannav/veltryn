@@ -1,0 +1,48 @@
+{
+  "courseId": "dsa",
+  "courseName": "Data Structures & Algorithms - Interview Preparation",
+  "description": "Master essential DSA concepts for coding interviews with 100+ problems, complexity analysis, and optimization techniques.",
+  "duration": "12 weeks",
+  "level": "Intermediate to Advanced",
+  "students": "7,500+",
+  "sections": [
+    {
+      "section": "Arrays & Strings",
+      "levels": 20,
+      "topics": ["Two Pointers", "Sliding Window", "Array Manipulation", "String Algorithms"],
+      "problems": ["Two Sum", "3Sum", "Longest Substring", "Array Rotation", "Kadane's Algorithm"]
+    },
+    {
+      "section": "Linked Lists",
+      "levels": 15,
+      "topics": ["Singly Linked List", "Doubly Linked List", "Circular List", "List Reversal"],
+      "problems": ["Reverse Linked List", "Detect Cycle", "Merge Lists", "Remove Nth Node"]
+    },
+    {
+      "section": "Stacks & Queues",
+      "levels": 15,
+      "topics": ["Stack Operations", "Queue Operations", "Priority Queue", "Monotonic Stack"],
+      "problems": ["Valid Parentheses", "Next Greater Element", "LRU Cache", "Queue using Stacks"]
+    },
+    {
+      "section": "Trees & Graphs",
+      "levels": 25,
+      "topics": ["Binary Tree", "BST", "AVL Tree", "Graphs", "DFS", "BFS", "Dijkstra", "Topological Sort"],
+      "problems": ["Tree Traversals", "Lowest Common Ancestor", "Graph Coloring", "Shortest Path"]
+    },
+    {
+      "section": "Dynamic Programming",
+      "levels": 20,
+      "topics": ["Memoization", "Tabulation", "DP Patterns", "Optimization"],
+      "problems": ["Fibonacci", "Knapsack", "LCS", "Matrix Chain", "Edit Distance"]
+    },
+    {
+      "section": "Advanced Topics",
+      "levels": 15,
+      "topics": ["Backtracking", "Greedy Algorithms", "Bit Manipulation", "Tries", "Segment Trees"],
+      "problems": ["N-Queens", "Sudoku Solver", "Activity Selection", "Huffman Coding"]
+    }
+  ],
+  "practiceProblems": "200+",
+  "mockInterviews": "10+"
+}

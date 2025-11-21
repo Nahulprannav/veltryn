@@ -1,0 +1,93 @@
+{
+  "courseId": "java",
+  "courseName": "Java Development - 50 Level Learning Plan",
+  "description": "Master Java programming from fundamentals to advanced enterprise development with comprehensive assignments and point system.",
+  "duration": "14 weeks",
+  "level": "Beginner to Advanced",
+  "students": "4,500+",
+  "pointSystem": {
+    "easy": 10,
+    "medium": 20,
+    "hard": 30,
+    "project": 50,
+    "finalProject": 100,
+    "bonusPerLevel": 5
+  },
+  "sections": [
+    {
+      "section": "LEVEL 1-10: Java Basics (Foundation)",
+      "levels": [
+        {"level": 1, "title": "Introduction to Java", "topics": ["JVM, JRE, JDK", "Platform-independent"], "assignment": "List 5 applications built using Java.", "points": 10},
+        {"level": 2, "title": "Installation & Setup", "topics": ["Installing JDK", "IntelliJ/Eclipse setup"], "assignment": "Write code to print 'Java Installed'.", "points": 10},
+        {"level": 3, "title": "Java Syntax & Structure", "topics": ["Class, main method", "statements"], "assignment": "Create a simple class with main().", "points": 10},
+        {"level": 4, "title": "Variables & Data Types", "topics": ["Primitive & Non-primitive types"], "assignment": "Create variables for name, age, marks and print.", "points": 10},
+        {"level": 5, "title": "Input & Output", "topics": ["Scanner class"], "assignment": "Get user name & print greeting.", "points": 10},
+        {"level": 6, "title": "Operators", "topics": ["Arithmetic, logical, comparison"], "assignment": "Java calculator (+ - * /)", "points": 20},
+        {"level": 7, "title": "Strings Basics", "topics": ["String class, methods"], "assignment": "Reverse a string.", "points": 10},
+        {"level": 8, "title": "Arrays", "topics": ["Single & multi-dimensional arrays"], "assignment": "Print sum of array elements.", "points": 10},
+        {"level": 9, "title": "Type Casting", "topics": ["implicit & explicit casting"], "assignment": "Convert float → int & print.", "points": 10},
+        {"level": 10, "title": "Control Statements", "topics": ["if-else, switch"], "assignment": "Grade calculator using if-else.", "points": 10}
+      ]
+    },
+    {
+      "section": "LEVEL 11-20: Loops, Methods & OOP Basics",
+      "levels": [
+        {"level": 11, "title": "Loops", "topics": ["for, while, do-while"], "assignment": "Print multiplication table.", "points": 10},
+        {"level": 12, "title": "Patterns", "topics": ["nested loops"], "assignment": "Star pyramid", "points": 20},
+        {"level": 13, "title": "Methods (Functions)", "topics": ["return, parameters"], "assignment": "Write a method to add numbers.", "points": 10},
+        {"level": 14, "title": "Method Overloading", "topics": ["Polymorphism basics"], "assignment": "Create 3 add() methods.", "points": 20},
+        {"level": 15, "title": "OOP – Classes & Objects", "topics": ["Blueprint, object creation"], "assignment": "Create a class Car with attributes.", "points": 20},
+        {"level": 16, "title": "Constructors", "topics": ["default & parameterized"], "assignment": "Create Student class with constructors.", "points": 20},
+        {"level": 17, "title": "Static & Final Keywords", "topics": ["static blocks, static methods"], "assignment": "Write a static method and call it.", "points": 10},
+        {"level": 18, "title": "Inheritance", "topics": ["single, multi-level"], "assignment": "Parent → Child class demo.", "points": 20},
+        {"level": 19, "title": "Polymorphism (Overriding)", "topics": ["Runtime polymorphism"], "assignment": "Override a method in subclass.", "points": 20},
+        {"level": 20, "title": "Encapsulation", "topics": ["private variables + getters/setters"], "assignment": "Create class with private fields.", "points": 20}
+      ]
+    },
+    {
+      "section": "LEVEL 21-30: OOP Advanced & Collections",
+      "levels": [
+        {"level": 21, "title": "Abstraction", "topics": ["abstract classes"], "assignment": "Create abstract class Animal.", "points": 20},
+        {"level": 22, "title": "Interfaces", "topics": ["implements keyword"], "assignment": "Create interface & implement it.", "points": 20},
+        {"level": 23, "title": "Packages & Access Modifiers", "topics": ["public, private, protected"], "assignment": "Create custom package.", "points": 20},
+        {"level": 24, "title": "Exception Handling", "topics": ["try, catch, finally"], "assignment": "Handle divide-by-zero error.", "points": 20},
+        {"level": 25, "title": "Custom Exceptions", "topics": ["Creating custom exceptions"], "assignment": "Create your own custom exception.", "points": 20},
+        {"level": 26, "title": "Inner Classes", "topics": ["inner & static inner class"], "assignment": "Create inner & static inner class.", "points": 10},
+        {"level": 27, "title": "Wrapper Classes", "topics": ["Boxing and Unboxing"], "assignment": "Convert int to Integer, etc.", "points": 10},
+        {"level": 28, "title": "Java Collections Basics", "topics": ["List, Set, Map"], "assignment": "Create ArrayList and perform operations.", "points": 20},
+        {"level": 29, "title": "HashMap & HashSet", "topics": ["Collections framework"], "assignment": "Count word frequency using HashMap.", "points": 20},
+        {"level": 30, "title": "Generics", "topics": ["Generic classes and methods"], "assignment": "Create a generic class.", "points": 20}
+      ]
+    },
+    {
+      "section": "LEVEL 31-40: File Handling, Threads & JDBC",
+      "levels": [
+        {"level": 31, "title": "File Handling", "topics": ["Reading and writing files"], "assignment": "Create a file and write your details.", "points": 20},
+        {"level": 32, "title": "Reading Files", "topics": ["BufferedReader, Scanner"], "assignment": "Read a text file and print content.", "points": 20},
+        {"level": 33, "title": "Multithreading Basics", "topics": ["Thread class"], "assignment": "Create a thread using Thread class.", "points": 20},
+        {"level": 34, "title": "Runnable Interface", "topics": ["Implementing Runnable"], "assignment": "Create thread using Runnable.", "points": 20},
+        {"level": 35, "title": "Thread Synchronization", "topics": ["synchronized keyword"], "assignment": "Demonstrate synchronized method.", "points": 30},
+        {"level": 36, "title": "Java Networking Basics", "topics": ["Socket programming"], "assignment": "Create basic socket program.", "points": 30},
+        {"level": 37, "title": "JDBC Basics", "topics": ["Database connectivity"], "assignment": "Connect Java to SQLite/MySQL.", "points": 30},
+        {"level": 38, "title": "CRUD Operations via JDBC", "topics": ["Insert, update, delete"], "assignment": "Insert, update, delete records.", "points": 40},
+        {"level": 39, "title": "JSON Parsing", "topics": ["Working with JSON"], "assignment": "Read & parse JSON data.", "points": 20},
+        {"level": 40, "title": "XML Parsing", "topics": ["DOM parser"], "assignment": "Read XML using DOM parser.", "points": 20}
+      ]
+    },
+    {
+      "section": "LEVEL 41-50: Advanced Java, Web, Tools & Projects",
+      "levels": [
+        {"level": 41, "title": "JavaFX / GUI Basics", "topics": ["Creating GUI applications"], "assignment": "Create an app window with a button.", "points": 20},
+        {"level": 42, "title": "JavaFX Mini Project", "topics": ["GUI project"], "assignment": "Build a calculator GUI.", "points": 50},
+        {"level": 43, "title": "Servlets Basics", "topics": ["Web applications"], "assignment": "Create a simple servlet.", "points": 30},
+        {"level": 44, "title": "JSP Basics", "topics": ["JavaServer Pages"], "assignment": "Build JSP page showing user data.", "points": 30},
+        {"level": 45, "title": "Spring Boot Basics", "topics": ["REST API"], "assignment": "Create REST API endpoint.", "points": 40},
+        {"level": 46, "title": "Spring Boot CRUD App", "topics": ["Database integration"], "assignment": "CRUD with database integration.", "points": 50},
+        {"level": 47, "title": "Version Control – Git", "topics": ["Using Git"], "assignment": "Push a Java project to GitHub.", "points": 20},
+        {"level": 48, "title": "Unit Testing (JUnit)", "topics": ["Writing tests"], "assignment": "Write test cases for a calculator app.", "points": 30},
+        {"level": 49, "title": "Java Deployment", "topics": ["Deploying applications"], "assignment": "Deploy Spring Boot app.", "points": 50},
+        {"level": 50, "title": "Final Java Capstone Project", "topics": ["Real-world application"], "assignment": "Build: Online Banking System / Student Management System / E-commerce Backend / Job Portal Backend / Inventory System", "points": 100}
+      ]
+    }
+  ]
+}

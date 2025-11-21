@@ -1,0 +1,35 @@
+{
+  "courseId": "oops",
+  "courseName": "Object-Oriented Programming - Complete Mastery",
+  "description": "Deep dive into OOP concepts, design patterns, SOLID principles, and best practices for writing maintainable code.",
+  "duration": "8 weeks",
+  "level": "Intermediate",
+  "students": "6,000+",
+  "sections": [
+    {
+      "section": "OOP Fundamentals",
+      "topics": ["Classes & Objects", "Encapsulation", "Abstraction", "Inheritance", "Polymorphism"],
+      "assignments": ["Create class hierarchies", "Implement encapsulation", "Use polymorphism"]
+    },
+    {
+      "section": "Advanced OOP Concepts",
+      "topics": ["Interface vs Abstract Class", "Multiple Inheritance", "Method Overloading", "Method Overriding", "Constructor Chaining"],
+      "assignments": ["Build complex class structures", "Implement interfaces", "Design class relationships"]
+    },
+    {
+      "section": "Design Patterns",
+      "topics": ["Singleton", "Factory", "Observer", "Strategy", "Decorator", "MVC Pattern"],
+      "assignments": ["Implement 10 design patterns", "Build projects using patterns"]
+    },
+    {
+      "section": "SOLID Principles",
+      "topics": ["Single Responsibility", "Open/Closed", "Liskov Substitution", "Interface Segregation", "Dependency Inversion"],
+      "assignments": ["Refactor code with SOLID", "Design maintainable systems"]
+    },
+    {
+      "section": "Real-World Projects",
+      "topics": ["Library Management", "Banking System", "E-commerce Backend", "Game Development"],
+      "assignments": ["Build 5 complete OOP projects"]
+    }
+  ]
+}

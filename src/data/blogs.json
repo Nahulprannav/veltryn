@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "title": "Getting Started with Python Programming",
+    "excerpt": "A comprehensive guide to begin your Python programming journey",
+    "content": "Python is one of the most popular programming languages today. Its simple syntax and powerful capabilities make it perfect for beginners and experts alike. In this guide, we'll cover the fundamentals of Python including variables, data types, control structures, and functions. Python's versatility extends from web development to data science, making it an essential skill for modern developers. We'll explore how to set up your development environment, write your first program, and understand Python's core concepts. The language's readability makes it an excellent choice for teaching programming concepts, while its extensive library ecosystem provides tools for virtually any task you can imagine.",
+    "author": "Veltryn Team",
+    "date": "2024-01-15",
+    "category": "Programming",
+    "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=800"
+  },
+  {
+    "id": 2,
+    "title": "Java Development Best Practices",
+    "excerpt": "Learn essential Java coding standards and patterns",
+    "content": "Java remains a cornerstone of enterprise development. This article explores best practices including proper use of OOP principles, design patterns like Singleton and Factory, exception handling strategies, and memory management. We'll also discuss modern Java features like lambda expressions and streams that make code more concise and readable. Understanding these practices will help you write maintainable, efficient, and scalable Java applications that stand the test of time. We'll cover code organization, naming conventions, testing strategies, and documentation best practices that are crucial for professional Java development.",
+    "author": "Veltryn Team",
+    "date": "2024-01-14",
+    "category": "Programming",
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800"
+  },
+  {
+    "id": 3,
+    "title": "MERN Stack Complete Guide",
+    "excerpt": "Master MongoDB, Express, React, and Node.js",
+    "content": "The MERN stack has revolutionized full-stack JavaScript development. This comprehensive guide covers MongoDB for database management, Express.js for server-side routing, React for dynamic user interfaces, and Node.js for backend logic. Learn how these technologies work together to create powerful web applications with examples and best practices. We'll build a complete application from scratch, covering authentication, data management, API design, and deployment strategies. The MERN stack allows developers to use JavaScript throughout the entire development process, streamlining workflow and reducing context switching between languages.",
+    "author": "Veltryn Team",
+    "date": "2024-01-13",
+    "category": "Web Development",
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800"
+  },
+  {
+    "id": 4,
+    "title": "Cybersecurity Fundamentals",
+    "excerpt": "Protect your applications from common threats",
+    "content": "Cybersecurity is critical in today's digital landscape. This article covers essential security concepts including authentication, authorization, encryption, SQL injection prevention, XSS protection, and CSRF tokens. Learn how to implement security best practices in your applications and understand common vulnerabilities listed in OWASP Top 10. We'll explore threat modeling, secure coding practices, security testing methodologies, and incident response procedures. Understanding these fundamentals will help you build applications that protect user data and maintain trust in an increasingly hostile digital environment.",
+    "author": "Veltryn Team",
+    "date": "2024-01-12",
+    "category": "Security",
+    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800"
+  },
+  {
+    "id": 5,
+    "title": "Cloud Computing with AWS",
+    "excerpt": "Deploy and scale applications on Amazon Web Services",
+    "content": "Amazon Web Services provides a comprehensive cloud platform for modern applications. This guide explores core AWS services including EC2 for compute, S3 for storage, RDS for databases, and Lambda for serverless functions. Learn deployment strategies, cost optimization, and how to architect scalable cloud solutions. We'll cover infrastructure as code with CloudFormation, monitoring with CloudWatch, and implementing high availability and disaster recovery strategies. Understanding AWS services and their proper usage will enable you to build resilient, scalable applications that can grow with your business needs.",
+    "author": "Veltryn Team",
+    "date": "2024-01-11",
+    "category": "Cloud",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800"
+  },
+  {
+    "id": 6,
+    "title": "React Hooks Deep Dive",
+    "excerpt": "Master useState, useEffect, and custom hooks",
+    "content": "React Hooks have transformed how we write React components. This deep dive explains useState for state management, useEffect for side effects, useContext for global state, useMemo and useCallback for performance optimization, and how to create custom hooks. Includes practical examples and common patterns. We'll explore the rules of hooks, best practices for hook composition, and how to test components that use hooks. Understanding hooks thoroughly will make your React code more concise, reusable, and easier to understand, while avoiding common pitfalls and performance issues.",
+    "author": "Veltryn Team",
+    "date": "2024-01-10",
+    "category": "Web Development",
+    "image": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?w=800"
+  },
+  {
+    "id": 7,
+    "title": "Data Structures and Algorithms",
+    "excerpt": "Essential DSA concepts for technical interviews",
+    "content": "Master fundamental data structures including arrays, linked lists, stacks, queues, trees, and graphs. Learn essential algorithms for sorting, searching, and problem-solving. This guide covers time and space complexity analysis, dynamic programming, and strategies for approaching coding interview questions. We'll work through classic problems, discuss optimization techniques, and build intuition for choosing the right data structure for different scenarios. Understanding DSA is crucial not just for interviews but for writing efficient code in production environments.",
+    "author": "Veltryn Team",
+    "date": "2024-01-09",
+    "category": "Computer Science",
+    "image": "https://images.unsplash.com/photo-1509228468518-180dd4864904?w=800"
+  },
+  {
+    "id": 8,
+    "title": "Machine Learning Basics with Python",
+    "excerpt": "Introduction to ML using scikit-learn",
+    "content": "Machine Learning is transforming industries worldwide. This beginner-friendly guide introduces ML concepts using Python and scikit-learn. Learn about supervised and unsupervised learning, regression, classification, model evaluation, and feature engineering. Includes hands-on examples with real datasets. We'll explore the ML workflow from data preparation to model deployment, discuss common pitfalls, and learn how to interpret model results. Understanding these fundamentals will prepare you to tackle more advanced ML topics and apply machine learning to real-world problems.",
+    "author": "Veltryn Team",
+    "date": "2024-01-08",
+    "category": "AI/ML",
+    "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800"
+  },
+  {
+    "id": 9,
+    "title": "DevOps and CI/CD Pipelines",
+    "excerpt": "Automate your development workflow",
+    "content": "DevOps practices streamline software development and deployment. Learn about continuous integration and continuous deployment using tools like Jenkins, GitLab CI, and GitHub Actions. Explore containerization with Docker, orchestration with Kubernetes, and infrastructure as code with Terraform. We'll build a complete CI/CD pipeline from scratch, implement automated testing, and set up monitoring and alerting. Understanding DevOps principles will help you deliver software faster, more reliably, and with greater confidence in your deployments.",
+    "author": "Veltryn Team",
+    "date": "2024-01-07",
+    "category": "DevOps",
+    "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=800"
+  },
+  {
+    "id": 10,
+    "title": "Database Design Principles",
+    "excerpt": "Build efficient and scalable databases",
+    "content": "Effective database design is crucial for application performance. This guide covers normalization, denormalization, indexing strategies, query optimization, and choosing between SQL and NoSQL databases. Learn about database schemas, relationships, transactions, and how to design databases that scale. We'll explore real-world examples, discuss trade-offs between different design decisions, and learn how to migrate and evolve database schemas over time. Proper database design sets the foundation for application performance and maintainability.",
+    "author": "Veltryn Team",
+    "date": "2024-01-06",
+    "category": "Database",
+    "image": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=800"
+  },
+  {
+    "id": 11,
+    "title": "Mobile App Development with React Native",
+    "excerpt": "Build cross-platform mobile apps with JavaScript",
+    "content": "React Native enables building native mobile apps using React. Learn component architecture, navigation patterns, state management with Redux, API integration, and platform-specific code. Discover best practices for performance optimization, offline functionality, and publishing to app stores. We'll build a complete mobile application, implement animations, handle device features like camera and location, and optimize for different screen sizes. React Native allows you to leverage your web development skills to create high-quality mobile applications.",
+    "author": "Veltryn Team",
+    "date": "2024-01-05",
+    "category": "Mobile Development",
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800"
+  },
+  {
+    "id": 12,
+    "title": "GraphQL vs REST APIs",
+    "excerpt": "Choosing the right API architecture",
+    "content": "Compare GraphQL and REST API architectures. Understand when to use each approach, their strengths and weaknesses, and implementation strategies. Learn about GraphQL queries, mutations, subscriptions, schema design, and how to migrate from REST to GraphQL. We'll explore real-world use cases, discuss performance considerations, and examine tools for API documentation and testing. Making the right API architecture choice can significantly impact your application's efficiency and developer experience.",
+    "author": "Veltryn Team",
+    "date": "2024-01-04",
+    "category": "API Development",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800"
+  },
+  {
+    "id": 13,
+    "title": "TypeScript for JavaScript Developers",
+    "excerpt": "Add static typing to your JavaScript projects",
+    "content": "TypeScript adds type safety to JavaScript, catching errors during development. Learn type annotations, interfaces, generics, advanced types, and how to integrate TypeScript into existing projects. Explore best practices for typing React components, API responses, and third-party libraries. We'll discuss the benefits and trade-offs of using TypeScript, configure the compiler for optimal development experience, and learn how to gradually adopt TypeScript in existing codebases. Type safety can prevent bugs and improve code maintainability.",
+    "author": "Veltryn Team",
+    "date": "2024-01-03",
+    "category": "Programming",
+    "image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800"
+  },
+  {
+    "id": 14,
+    "title": "Web Accessibility Guidelines",
+    "excerpt": "Build inclusive web applications",
+    "content": "Web accessibility ensures everyone can use your applications. Learn WCAG guidelines, semantic HTML, ARIA attributes, keyboard navigation, screen reader compatibility, and color contrast requirements. Discover tools for accessibility testing and how to create inclusive user experiences. We'll explore common accessibility issues, learn how to test with assistive technologies, and understand legal requirements. Building accessible applications not only helps users with disabilities but often improves the experience for all users.",
+    "author": "Veltryn Team",
+    "date": "2024-01-02",
+    "category": "Web Development",
+    "image": "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=800"
+  },
+  {
+    "id": 15,
+    "title": "Microservices Architecture",
+    "excerpt": "Design scalable distributed systems",
+    "content": "Microservices architecture breaks applications into independent services. Learn service decomposition strategies, inter-service communication, API gateways, service discovery, and handling distributed transactions. Explore patterns for resilience, monitoring, and deployment of microservices. We'll discuss when microservices are appropriate, how to manage data consistency, implement authentication across services, and handle failures gracefully. Understanding microservices architecture is crucial for building scalable, maintainable distributed systems.",
+    "author": "Veltryn Team",
+    "date": "2024-01-01",
+    "category": "Architecture",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800"
+  },
+  {
+    "id": 16,
+    "title": "Git and GitHub Workflow",
+    "excerpt": "Master version control and collaboration",
+    "content": "Git is essential for modern development. Learn branching strategies, merge vs rebase, pull requests, code reviews, and resolving conflicts. Explore GitHub Actions for automation, project management features, and best practices for team collaboration. We'll cover Git workflows like GitFlow and trunk-based development, learn how to write good commit messages, and understand how to use Git for effective collaboration. Version control mastery is fundamental to professional software development.",
+    "author": "Veltryn Team",
+    "date": "2023-12-31",
+    "category": "Tools",
+    "image": "https://images.unsplash.com/photo-1556075798-4825dfaaf498?w=800"
+  },
+  {
+    "id": 17,
+    "title": "Performance Optimization Techniques",
+    "excerpt": "Speed up your web applications",
+    "content": "Application performance impacts user experience and SEO. Learn optimization techniques including code splitting, lazy loading, image optimization, caching strategies, CDN usage, and performance monitoring. Explore tools like Lighthouse and WebPageTest for measuring improvements. We'll discuss browser rendering behavior, identify performance bottlenecks, and implement optimizations that make measurable differences. Performance optimization is an ongoing process that requires understanding both front-end and back-end considerations.",
+    "author": "Veltryn Team",
+    "date": "2023-12-30",
+    "category": "Performance",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800"
+  },
+  {
+    "id": 18,
+    "title": "Testing Strategies for Web Apps",
+    "excerpt": "Ensure quality with comprehensive testing",
+    "content": "Testing is crucial for reliable applications. Learn about unit testing with Jest, integration testing, end-to-end testing with Cypress or Playwright, test-driven development (TDD), and continuous testing in CI/CD pipelines. Discover best practices for writing maintainable tests. We'll explore testing pyramids, mock strategies, and how to test different aspects of web applications from components to APIs. Good testing practices catch bugs early and give you confidence when making changes.",
+    "author": "Veltryn Team",
+    "date": "2023-12-29",
+    "category": "Testing",
+    "image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800"
+  },
+  {
+    "id": 19,
+    "title": "Blockchain Technology Explained",
+    "excerpt": "Understanding distributed ledger technology",
+    "content": "Blockchain technology enables secure, decentralized transactions. Learn about blockchain fundamentals, cryptographic principles, consensus mechanisms, smart contracts, and cryptocurrency. Explore use cases beyond finance including supply chain, healthcare, and digital identity. We'll demystify blockchain technology, discuss its limitations and potential, and explore practical applications. Understanding blockchain opens opportunities in emerging technological fields.",
+    "author": "Veltryn Team",
+    "date": "2023-12-28",
+    "category": "Emerging Tech",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800"
+  },
+  {
+    "id": 20,
+    "title": "UI/UX Design Principles",
+    "excerpt": "Create intuitive user experiences",
+    "content": "Great UI/UX design makes applications enjoyable to use. Learn design principles including visual hierarchy, consistency, feedback, accessibility, and responsive design. Explore user research methods, wireframing, prototyping, and usability testing to create user-centered designs. We'll discuss color theory, typography, layout principles, and how to create interfaces that are both beautiful and functional. Good design is invisible - it helps users accomplish their goals without getting in the way.",
+    "author": "Veltryn Team",
+    "date": "2023-12-27",
+    "category": "Design",
+    "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800"
+  },
+  {
+    "id": 21,
+    "title": "Serverless Computing with AWS Lambda",
+    "excerpt": "Build applications without managing servers",
+    "content": "Serverless computing revolutionizes application deployment. Learn AWS Lambda fundamentals, event-driven architecture, API Gateway integration, DynamoDB for data storage, and serverless deployment strategies. Explore cost optimization and scaling patterns for serverless applications. We'll build serverless APIs, implement background processing, and integrate with other AWS services. Serverless reduces operational complexity and allows you to focus on code rather than infrastructure.",
+    "author": "Veltryn Team",
+    "date": "2023-12-26",
+    "category": "Cloud",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800"
+  },
+  {
+    "id": 22,
+    "title": "Agile Development Methodology",
+    "excerpt": "Implement iterative software development",
+    "content": "Agile methodology emphasizes collaboration and flexibility. Learn Scrum framework, sprint planning, daily standups, retrospectives, and continuous improvement. Explore user stories, backlog management, estimation techniques, and tools for agile project management. We'll discuss how to implement Agile in different team contexts, handle changing requirements, and measure team velocity. Agile practices help teams deliver value faster and respond to change more effectively.",
+    "author": "Veltryn Team",
+    "date": "2023-12-25",
+    "category": "Project Management",
+    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800"
+  },
+  {
+    "id": 23,
+    "title": "Docker Containerization Guide",
+    "excerpt": "Package applications with Docker",
+    "content": "Docker simplifies application deployment through containerization. Learn Docker basics, Dockerfile creation, image optimization, container orchestration, Docker Compose for multi-container applications, and best practices for production deployments. We'll explore networking, volume management, and security considerations. Docker provides consistency across development, testing, and production environments, solving the 'it works on my machine' problem.",
+    "author": "Veltryn Team",
+    "date": "2023-12-24",
+    "category": "DevOps",
+    "image": "https://images.unsplash.com/photo-1605745341112-85968b19335b?w=800"
+  },
+  {
+    "id": 24,
+    "title": "Progressive Web Apps (PWA)",
+    "excerpt": "Build app-like experiences on the web",
+    "content": "Progressive Web Apps combine web and mobile app features. Learn service workers for offline functionality, web app manifests, push notifications, and responsive design. Discover how to create fast, reliable, engaging web experiences that work across devices. We'll implement caching strategies, handle network failures gracefully, and optimize for mobile performance. PWAs bridge the gap between web and native applications.",
+    "author": "Veltryn Team",
+    "date": "2023-12-23",
+    "category": "Web Development",
+    "image": "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800"
+  },
+  {
+    "id": 25,
+    "title": "SQL Query Optimization",
+    "excerpt": "Write efficient database queries",
+    "content": "Optimized SQL queries improve application performance. Learn indexing strategies, query execution plans, JOIN optimization, subquery alternatives, and database-specific features. Explore tools for query analysis and techniques for handling large datasets efficiently. We'll identify common performance problems, understand how databases execute queries, and apply optimization techniques. Query optimization can dramatically improve application response times.",
+    "author": "Veltryn Team",
+    "date": "2023-12-22",
+    "category": "Database",
+    "image": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=800"
+  },
+  {
+    "id": 26,
+    "title": "Angular Framework Deep Dive",
+    "excerpt": "Master TypeScript-based web framework",
+    "content": "Angular is a comprehensive framework for web applications. Learn components, services, dependency injection, RxJS observables, routing, forms, and HTTP communication. Explore NgRx for state management and best practices for enterprise Angular applications. We'll build a complete Angular application, implement authentication, and optimize for performance. Angular's opinionated structure provides a complete solution for large-scale applications.",
+    "author": "Veltryn Team",
+    "date": "2023-12-21",
+    "category": "Web Development",
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800"
+  },
+  {
+    "id": 27,
+    "title": "Kubernetes Container Orchestration",
+    "excerpt": "Deploy and manage containerized applications",
+    "content": "Kubernetes automates container deployment and scaling. Learn pods, deployments, services, ingress, persistent storage, and cluster management. Explore Helm for package management, monitoring with Prometheus, and strategies for production Kubernetes clusters. We'll deploy applications to Kubernetes, implement rolling updates, and configure auto-scaling. Kubernetes is essential for managing containerized applications at scale.",
+    "author": "Veltryn Team",
+    "date": "2023-12-20",
+    "category": "DevOps",
+    "image": "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=800"
+  },
+  {
+    "id": 28,
+    "title": "OAuth 2.0 and OpenID Connect",
+    "excerpt": "Implement secure authentication",
+    "content": "OAuth 2.0 and OpenID Connect enable secure authorization and authentication. Learn authorization flows, access tokens, refresh tokens, JWT, and implementing OAuth providers. Explore best practices for securing APIs and handling user authentication in modern applications. We'll implement social login, protect API endpoints, and handle token refresh. Understanding these protocols is crucial for building secure authentication systems.",
+    "author": "Veltryn Team",
+    "date": "2023-12-19",
+    "category": "Security",
+    "image": "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=800"
+  },
+  {
+    "id": 29,
+    "title": "Redis Caching Strategies",
+    "excerpt": "Improve performance with in-memory caching",
+    "content": "Redis provides high-performance caching and data storage. Learn caching patterns, session management, pub/sub messaging, and data structures. Explore use cases for Redis including rate limiting, leaderboards, and real-time analytics. We'll implement caching strategies, use Redis for session storage, and leverage its data structures for complex operations. Redis can dramatically improve application performance by reducing database load.",
+    "author": "Veltryn Team",
+    "date": "2023-12-18",
+    "category": "Database",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800"
+  },
+  {
+    "id": 30,
+    "title": "Web3 and Decentralized Applications",
+    "excerpt": "Build the future of the internet",
+    "content": "Web3 represents the decentralized web powered by blockchain. Learn about decentralized applications (dApps), smart contracts with Solidity, Web3.js, MetaMask integration, and IPFS for decentralized storage. Explore the potential and challenges of Web3 technology. We'll build a simple dApp, interact with smart contracts, and understand the Web3 ecosystem. Web3 aims to create a more open and user-controlled internet.",
+    "author": "Veltryn Team",
+    "date": "2023-12-17",
+    "category": "Emerging Tech",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800"
+  },
+  {
+    "id": 31,
+    "title": "Natural Language Processing Basics",
+    "excerpt": "Process and analyze human language with AI",
+    "content": "NLP enables computers to understand human language. Learn text preprocessing, sentiment analysis, named entity recognition, and language models. Explore libraries like NLTK, spaCy, and transformers for building NLP applications. We'll implement text classification, analyze sentiment, and work with pre-trained language models. NLP powers applications from chatbots to content analysis.",
+    "author": "Veltryn Team",
+    "date": "2023-12-16",
+    "category": "AI/ML",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800"
+  },
+  {
+    "id": 32,
+    "title": "Tailwind CSS Best Practices",
+    "excerpt": "Utility-first CSS framework mastery",
+    "content": "Tailwind CSS provides utility classes for rapid UI development. Learn responsive design, custom theming, component extraction, optimization strategies, and integrating Tailwind with React, Vue, or Angular. Discover how to maintain clean, scalable styles. We'll build reusable components, customize Tailwind configuration, and optimize for production. Tailwind's utility-first approach speeds up development while maintaining consistency.",
+    "author": "Veltryn Team",
+    "date": "2023-12-15",
+    "category": "Web Development",
+    "image": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?w=800"
+  },
+  {
+    "id": 33,
+    "title": "Software Architecture Patterns",
+    "excerpt": "Design robust and maintainable systems",
+    "content": "Architecture patterns guide application structure. Learn MVC, MVVM, Clean Architecture, hexagonal architecture, and event-driven design. Understand when to apply each pattern and how to balance complexity with maintainability. We'll explore real-world examples, discuss trade-offs, and learn how to document architectural decisions. Good architecture makes applications easier to understand, test, and modify.",
+    "author": "Veltryn Team",
+    "date": "2023-12-14",
+    "category": "Architecture",
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800"
+  },
+  {
+    "id": 34,
+    "title": "Firebase for Rapid Development",
+    "excerpt": "Build apps quickly with Firebase",
+    "content": "Firebase provides backend services for rapid development. Learn Firestore for databases, Authentication, Cloud Functions, Hosting, and Storage. Explore real-time updates, security rules, and integrating Firebase with web and mobile applications. We'll build a complete application using Firebase services, implement authentication, and deploy to Firebase Hosting. Firebase allows you to focus on front-end development while handling backend infrastructure.",
+    "author": "Veltryn Team",
+    "date": "2023-12-13",
+    "category": "Cloud",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800"
+  },
+  {
+    "id": 35,
+    "title": "WebSocket Real-Time Communication",
+    "excerpt": "Build real-time interactive applications",
+    "content": "WebSockets enable bidirectional real-time communication. Learn WebSocket protocol, Socket.io for simplified implementation, handling connections, broadcasting messages, and building real-time features like chat, notifications, and live updates. We'll implement a real-time chat application, handle reconnections, and scale WebSocket servers. Real-time communication enhances user experience in collaborative applications.",
+    "author": "Veltryn Team",
+    "date": "2023-12-12",
+    "category": "Web Development",
+    "image": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?w=800"
+  },
+  {
+    "id": 36,
+    "title": "Code Review Best Practices",
+    "excerpt": "Improve code quality through peer review",
+    "content": "Code reviews maintain code quality and share knowledge. Learn effective review techniques, constructive feedback, automated checks, review checklists, and creating a positive review culture. Explore tools like GitHub, GitLab, and Gerrit for code review workflows. We'll discuss what to look for in reviews, how to give actionable feedback, and integrate reviews into development workflow. Code reviews catch bugs and improve team knowledge.",
+    "author": "Veltryn Team",
+    "date": "2023-12-11",
+    "category": "Best Practices",
+    "image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800"
+  },
+  {
+    "id": 37,
+    "title": "Vue.js Component Patterns",
+    "excerpt": "Build scalable Vue applications",
+    "content": "Vue.js offers flexible component architecture. Learn component communication, slots, mixins, composables, Vuex for state management, and Vue Router. Explore patterns for building reusable, maintainable Vue components and large-scale applications. We'll implement common patterns, optimize component performance, and structure Vue projects for scalability. Vue's progressive framework approach makes it easy to adopt incrementally.",
+    "author": "Veltryn Team",
+    "date": "2023-12-10",
+    "category": "Web Development",
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800"
+  },
+  {
+    "id": 38,
+    "title": "API Security Fundamentals",
+    "excerpt": "Protect your APIs from threats",
+    "content": "API security is critical for modern applications. Learn authentication methods, rate limiting, input validation, CORS configuration, API keys vs OAuth, and preventing common attacks. Explore security headers, encryption, and monitoring for API protection. We'll implement security best practices, handle sensitive data properly, and test API security. Securing APIs protects both your application and user data.",
+    "author": "Veltryn Team",
+    "date": "2023-12-09",
+    "category": "Security",
+    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800"
+  },
+  {
+    "id": 39,
+    "title": "MongoDB Aggregation Framework",
+    "excerpt": "Advanced data processing in MongoDB",
+    "content": "MongoDB aggregation enables complex data transformations. Learn pipeline stages, grouping, filtering, sorting, lookups for joins, and performance optimization. Explore practical examples for data analysis, reporting, and transforming document structures. We'll build aggregation pipelines for common use cases, optimize queries, and understand when to use aggregation vs find(). The aggregation framework is powerful for data analysis in MongoDB.",
+    "author": "Veltryn Team",
+    "date": "2023-12-08",
+    "category": "Database",
+    "image": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=800"
+  },
+  {
+    "id": 40,
+    "title": "Electron for Desktop Applications",
+    "excerpt": "Build cross-platform desktop apps with web tech",
+    "content": "Electron enables building desktop applications using web technologies. Learn main and renderer processes, IPC communication, native menus, system tray integration, and packaging for Windows, macOS, and Linux. Explore security considerations and performance optimization. We'll build a desktop application, access native APIs, and package for distribution. Electron allows web developers to create desktop applications.",
+    "author": "Veltryn Team",
+    "date": "2023-12-07",
+    "category": "Desktop Development",
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800"
+  },
+  {
+    "id": 41,
+    "title": "Design Systems and Component Libraries",
+    "excerpt": "Create consistent UI across applications",
+    "content": "Design systems ensure consistency and speed up development. Learn creating component libraries, documentation with Storybook, design tokens, versioning, and maintaining design-development alignment. Explore successful design systems like Material Design and Carbon. We'll build a component library, document components, and establish design guidelines. Design systems improve collaboration between designers and developers.",
+    "author": "Veltryn Team",
+    "date": "2023-12-06",
+    "category": "Design",
+    "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800"
+  },
+  {
+    "id": 42,
+    "title": "CI/CD with GitHub Actions",
+    "excerpt": "Automate workflows with GitHub Actions",
+    "content": "GitHub Actions provides powerful CI/CD capabilities. Learn workflow syntax, triggers, jobs, actions marketplace, secrets management, and building pipelines for testing, building, and deploying applications. Explore advanced patterns like matrix builds and reusable workflows. We'll automate testing, deployment, and release processes. GitHub Actions integrates directly with your repository for seamless automation.",
+    "author": "Veltryn Team",
+    "date": "2023-12-05",
+    "category": "DevOps",
+    "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=800"
+  },
+  {
+    "id": 43,
+    "title": "Svelte and SvelteKit",
+    "excerpt": "Build fast web apps with less code",
+    "content": "Svelte compiles components to efficient JavaScript. Learn Svelte reactivity, stores, transitions, and SvelteKit for full-stack applications. Explore routing, server-side rendering, and why Svelte's approach differs from traditional frameworks. We'll build a SvelteKit application, implement animations, and optimize for performance. Svelte's compile-time approach results in smaller bundles and better performance.",
+    "author": "Veltryn Team",
+    "date": "2023-12-04",
+    "category": "Web Development",
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800"
+  },
+  {
+    "id": 44,
+    "title": "Technical Interview Preparation",
+    "excerpt": "Ace your coding interviews",
+    "content": "Prepare for technical interviews with systematic practice. Learn problem-solving strategies, common patterns, time complexity analysis, and communication techniques. Explore resources for practicing coding problems and behavioral question preparation. We'll cover interview formats, whiteboarding strategies, and how to handle difficult questions. Preparation and practice are key to interview success.",
+    "author": "Veltryn Team",
+    "date": "2023-12-03",
+    "category": "Career",
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800"
+  },
+  {
+    "id": 45,
+    "title": "Sass and SCSS Best Practices",
+    "excerpt": "Write better CSS with preprocessors",
+    "content": "Sass enhances CSS with variables, nesting, mixins, and functions. Learn SCSS syntax, organization strategies, theming, and integrating with build tools. Discover how to write maintainable, DRY stylesheets for large projects. We'll implement a Sass architecture, create reusable mixins, and optimize compilation. Sass makes CSS more powerful and maintainable.",
+    "author": "Veltryn Team",
+    "date": "2023-12-02",
+    "category": "Web Development",
+    "image": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?w=800"
+  },
+  {
+    "id": 46,
+    "title": "PostgreSQL Advanced Features",
+    "excerpt": "Leverage powerful database capabilities",
+    "content": "PostgreSQL offers advanced database features. Learn JSON support, full-text search, window functions, CTEs, triggers, stored procedures, and PostGIS for geospatial data. Explore performance tuning and replication strategies. We'll use advanced PostgreSQL features to solve complex problems, optimize queries, and implement sophisticated data models. PostgreSQL is a feature-rich relational database.",
+    "author": "Veltryn Team",
+    "date": "2023-12-01",
+    "category": "Database",
+    "image": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=800"
+  },
+  {
+    "id": 47,
+    "title": "Ethical Hacking Fundamentals",
+    "excerpt": "Learn security from an attacker's perspective",
+    "content": "Ethical hacking identifies security vulnerabilities. Learn reconnaissance, scanning, enumeration, exploitation, and reporting. Explore tools like Metasploit, Burp Suite, and Nmap. Understand legal and ethical considerations in penetration testing. We'll practice on legal testing environments, learn common attack vectors, and understand defense strategies. Ethical hacking helps organizations secure their systems.",
+    "author": "Veltryn Team",
+    "date": "2023-11-30",
+    "category": "Security",
+    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800"
+  },
+  {
+    "id": 48,
+    "title": "Next.js App Router Deep Dive",
+    "excerpt": "Build modern React applications with Next.js",
+    "content": "Next.js App Router offers powerful features for React applications. Learn server components, streaming, parallel routes, intercepting routes, and data fetching patterns. Explore deployment strategies and performance optimization techniques. We'll build a Next.js application using the app router, implement server and client components, and optimize for production. Next.js simplifies React development with built-in features.",
+    "author": "Veltryn Team",
+    "date": "2023-11-29",
+    "category": "Web Development",
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800"
+  },
+  {
+    "id": 49,
+    "title": "Data Visualization with D3.js",
+    "excerpt": "Create interactive data visualizations",
+    "content": "D3.js enables powerful data visualizations. Learn selections, data binding, scales, axes, and creating charts. Explore transitions, animations, and interactive visualizations. We'll build various chart types, implement interactivity, and optimize performance. D3.js provides low-level control for custom visualizations.",
+    "author": "Veltryn Team",
+    "date": "2023-11-28",
+    "category": "Data Visualization",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800"
+  },
+  {
+    "id": 50,
+    "title": "Rust Programming Language Intro",
+    "excerpt": "Learn systems programming with Rust",
+    "content": "Rust offers memory safety without garbage collection. Learn ownership, borrowing, lifetimes, error handling, and concurrency. Explore Rust's type system and how it prevents common bugs. We'll build Rust applications, understand the borrow checker, and appreciate Rust's performance and safety guarantees. Rust is increasingly popular for systems programming.",
+    "author": "Veltryn Team",
+    "date": "2023-11-27",
+    "category": "Programming",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800"
+  },
+  {
+    "id": 51,
+    "title": "Flutter Mobile Development",
+    "excerpt": "Build beautiful cross-platform mobile apps",
+    "content": "Flutter enables building beautiful mobile apps with Dart. Learn widgets, state management, navigation, animations, and platform integration. Explore Material Design and Cupertino widgets. We'll build a complete Flutter application, implement custom widgets, and optimize performance. Flutter provides a rich widget library and hot reload for rapid development.",
+    "author": "Veltryn Team",
+    "date": "2023-11-26",
+    "category": "Mobile Development",
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800"
+  },
+  {
+    "id": 52,
+    "title": "Go Programming Basics",
+    "excerpt": "Learn concurrent programming with Go",
+    "content": "Go is designed for concurrent programming and scalability. Learn goroutines, channels, interfaces, error handling, and the Go standard library. Explore Go's simplicity and performance characteristics. We'll build concurrent applications, implement REST APIs, and understand Go's approach to programming. Go excels at building scalable network services.",
+    "author": "Veltryn Team",
+    "date": "2023-11-25",
+    "category": "Programming",
+    "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800"
+  },
+  {
+    "id": 53,
+    "title": "Computer Vision with OpenCV",
+    "excerpt": "Process and analyze images and video",
+    "content": "Computer vision enables machines to understand visual information. Learn image processing, object detection, face recognition, and video analysis with OpenCV. Explore deep learning models for vision tasks. We'll implement various computer vision algorithms, work with real-time video, and integrate with machine learning models. Computer vision powers applications from autonomous vehicles to medical imaging.",
+    "author": "Veltryn Team",
+    "date": "2023-11-24",
+    "category": "AI/ML",
+    "image": "https://images.unsplash.com/photo-1535378620166-273708d44e4c?w=800"
+  },
+  {
+    "id": 54,
+    "title": "Spring Boot Microservices",
+    "excerpt": "Build Java microservices with Spring Boot",
+    "content": "Spring Boot simplifies Java application development. Learn Spring Boot fundamentals, REST APIs, Spring Data JPA, security, and building microservices. Explore service discovery, configuration management, and API gateways. We'll build a complete microservices architecture, implement inter-service communication, and deploy to cloud platforms. Spring Boot is popular for enterprise Java development.",
+    "author": "Veltryn Team",
+    "date": "2023-11-23",
+    "category": "Backend Development",
+    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800"
+  },
+  {
+    "id": 55,
+    "title": "Elasticsearch Full-Text Search",
+    "excerpt": "Implement powerful search capabilities",
+    "content": "Elasticsearch provides distributed full-text search. Learn indexing, querying, aggregations, and scaling Elasticsearch. Explore relevance scoring, analyzers, and the Elastic Stack (ELK). We'll implement search functionality, analyze logs, and build search-driven applications. Elasticsearch powers search for many popular applications.",
+    "author": "Veltryn Team",
+    "date": "2023-11-22",
+    "category": "Database",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800"
+  },
+  {
+    "id": 56,
+    "title": "Terraform Infrastructure as Code",
+    "excerpt": "Manage infrastructure with code",
+    "content": "Terraform enables infrastructure as code across cloud providers. Learn Terraform syntax, providers, modules, state management, and best practices. Explore managing multi-cloud infrastructure and team workflows. We'll provision infrastructure on AWS, implement CI/CD for infrastructure changes, and manage infrastructure at scale. Infrastructure as code makes infrastructure reproducible and versionable.",
+    "author": "Veltryn Team",
+    "date": "2023-11-21",
+    "category": "DevOps",
+    "image": "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=800"
+  },
+  {
+    "id": 57,
+    "title": "Django Web Framework",
+    "excerpt": "Build robust web applications with Python",
+    "content": "Django is a high-level Python web framework. Learn Django models, views, templates, forms, and authentication. Explore Django REST framework for building APIs. We'll build a complete web application, implement user authentication, and deploy to production. Django's batteries-included approach provides many features out of the box.",
+    "author": "Veltryn Team",
+    "date": "2023-11-20",
+    "category": "Backend Development",
+    "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=800"
+  },
+  {
+    "id": 58,
+    "title": "Apache Kafka Streaming",
+    "excerpt": "Build real-time data streaming applications",
+    "content": "Apache Kafka is a distributed streaming platform. Learn Kafka basics, producers, consumers, topics, partitions, and stream processing. Explore Kafka Streams and KSQL for real-time analytics. We'll build event-driven applications, process streams of data, and implement real-time pipelines. Kafka is essential for modern data architectures.",
+    "author": "Veltryn Team",
+    "date": "2023-11-19",
+    "category": "Data Engineering",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800"
+  },
+  {
+    "id": 59,
+    "title": "Swift iOS Development",
+    "excerpt": "Build native iOS applications with Swift",
+    "content": "Swift is Apple's modern programming language for iOS development. Learn Swift syntax, UIKit, SwiftUI, networking, and Core Data. Explore iOS design patterns and App Store submission. We'll build a complete iOS application, implement modern UI with SwiftUI, and integrate with iOS features. Swift offers safety and performance for iOS development.",
+    "author": "Veltryn Team",
+    "date": "2023-11-18",
+    "category": "Mobile Development",
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800"
+  },
+  {
+    "id": 60,
+    "title": "Kotlin Android Development",
+    "excerpt": "Modern Android app development with Kotlin",
+    "content": "Kotlin is the preferred language for Android development. Learn Kotlin syntax, Android architecture components, Jetpack Compose, and Material Design. Explore dependency injection with Dagger/Hilt. We'll build an Android application, implement MVVM architecture, and use modern Android development tools. Kotlin makes Android development more concise and safe.",
+    "author": "Veltryn Team",
+    "date": "2023-11-17",
+    "category": "Mobile Development",
+    "image": "https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?w=800"
+  },
+  {
+    "id": 61,
+    "title": "RabbitMQ Message Queuing",
+    "excerpt": "Implement reliable message queuing",
+    "content": "RabbitMQ enables reliable message queuing between services. Learn exchanges, queues, bindings, routing, and message patterns. Explore clustering and high availability. We'll implement asynchronous communication, build event-driven architectures, and ensure reliable message delivery. Message queues decouple services and improve scalability.",
+    "author": "Veltryn Team",
+    "date": "2023-11-16",
+    "category": "Backend Development",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800"
+  },
+  {
+    "id": 62,
+    "title": "Jenkins CI/CD Automation",
+    "excerpt": "Automate builds and deployments with Jenkins",
+    "content": "Jenkins is a popular automation server for CI/CD. Learn pipeline syntax, integrations, plugins, and best practices. Explore distributed builds and security. We'll build comprehensive CI/CD pipelines, automate testing and deployment, and integrate with various tools. Jenkins provides flexibility for complex automation workflows.",
+    "author": "Veltryn Team",
+    "date": "2023-11-15",
+    "category": "DevOps",
+    "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?w=800"
+  },
+  {
+    "id": 63,
+    "title": "Nginx Web Server Configuration",
+    "excerpt": "Master web server and reverse proxy setup",
+    "content": "Nginx is a high-performance web server and reverse proxy. Learn configuration syntax, virtual hosts, SSL/TLS, load balancing, and caching. Explore performance tuning and security hardening. We'll configure Nginx for various use cases, implement reverse proxy patterns, and optimize for production. Nginx is essential for web infrastructure.",
+    "author": "Veltryn Team",
+    "date": "2023-11-14",
+    "category": "DevOps",
+    "image": "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=800"
+  },
+  {
+    "id": 64,
+    "title": "Pandas Data Analysis",
+    "excerpt": "Analyze data efficiently with Python Pandas",
+    "content": "Pandas is the essential library for data analysis in Python. Learn DataFrames, data manipulation, filtering, grouping, and visualization. Explore time series analysis and data cleaning techniques. We'll analyze real datasets, perform complex transformations, and generate insights. Pandas makes data analysis accessible and powerful.",
+    "author": "Veltryn Team",
+    "date": "2023-11-13",
+    "category": "Data Science",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800"
+  },
+  {
+    "id": 65,
+    "title": "NumPy Scientific Computing",
+    "excerpt": "High-performance numerical computing with Python",
+    "content": "NumPy provides efficient array operations for scientific computing. Learn arrays, broadcasting, linear algebra, and performance optimization. Explore integration with other scientific libraries. We'll implement numerical algorithms, perform matrix operations, and optimize computations. NumPy is the foundation of scientific Python.",
+    "author": "Veltryn Team",
+    "date": "2023-11-12",
+    "category": "Data Science",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800"
+  },
+  {
+    "id": 66,
+    "title": "TensorFlow Deep Learning",
+    "excerpt": "Build neural networks with TensorFlow",
+    "content": "TensorFlow is a comprehensive machine learning framework. Learn building neural networks, training models, transfer learning, and deployment. Explore CNNs, RNNs, and transformers. We'll implement various deep learning architectures, train models on real data, and deploy to production. TensorFlow powers many production ML systems.",
+    "author": "Veltryn Team",
+    "date": "2023-11-11",
+    "category": "AI/ML",
+    "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800"
+  },
+  {
+    "id": 67,
+    "title": "PyTorch Neural Networks",
+    "excerpt": "Research-friendly deep learning with PyTorch",
+    "content": "PyTorch offers dynamic neural networks popular in research. Learn tensors, autograd, building models, training loops, and PyTorch Lightning. Explore research implementations and production deployment. We'll implement cutting-edge architectures, experiment with different approaches, and understand PyTorch's dynamic graph. PyTorch is favored in research communities.",
+    "author": "Veltryn Team",
+    "date": "2023-11-10",
+    "category": "AI/ML",
+    "image": "https://images.unsplash.com/photo-1555255707-c07966088b7b?w=800"
+  },
+  {
+    "id": 68,
+    "title": "FastAPI Modern Python APIs",
+    "excerpt": "Build fast APIs with automatic documentation",
+    "content": "FastAPI is a modern Python web framework for building APIs. Learn async/await, type hints, automatic validation, and OpenAPI documentation. Explore performance optimization and dependency injection. We'll build production-ready APIs, implement authentication, and achieve high performance. FastAPI combines ease of use with excellent performance.",
+    "author": "Veltryn Team",
+    "date": "2023-11-09",
+    "category": "Backend Development",
+    "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=800"
+  },
+  {
+    "id": 69,
+    "title": "Ansible Configuration Management",
+    "excerpt": "Automate IT infrastructure with Ansible",
+    "content": "Ansible enables infrastructure automation through simple YAML. Learn playbooks, roles, inventory, and modules. Explore idempotency and testing strategies. We'll automate server configuration, deploy applications, and manage infrastructure at scale. Ansible's agentless architecture and simplicity make it accessible for automation.",
+    "author": "Veltryn Team",
+    "date": "2023-11-08",
+    "category": "DevOps",
+    "image": "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=800"
+  },
+  {
+    "id": 70,
+    "title": "Laravel PHP Framework",
+    "excerpt": "Elegant PHP web application development",
+    "content": "Laravel is an expressive PHP framework for web artisans. Learn routing, Eloquent ORM, Blade templates, authentication, and queues. Explore Laravel ecosystem and packages. We'll build a complete web application, implement APIs, and use Laravel's elegant syntax. Laravel makes PHP development enjoyable and productive.",
+    "author": "Veltryn Team",
+    "date": "2023-11-07",
+    "category": "Backend Development",
+    "image": "https://images.unsplash.com/photo-1599507593499-a3f7d7d97667?w=800"
+  },
+  {
+    "id": 71,
+    "title": "Webpack Module Bundling",
+    "excerpt": "Configure modern JavaScript bundling",
+    "content": "Webpack bundles JavaScript modules for browsers. Learn loaders, plugins, code splitting, and optimization. Explore development server and production builds. We'll configure Webpack for various scenarios, optimize bundle size, and improve build performance. Understanding Webpack is valuable even with newer tools.",
+    "author": "Veltryn Team",
+    "date": "2023-11-06",
+    "category": "Web Development",
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800"
+  },
+  {
+    "id": 72,
+    "title": "Vite Fast Build Tool",
+    "excerpt": "Lightning-fast development with Vite",
+    "content": "Vite provides instant server start and fast hot module replacement. Learn configuration, plugins, and optimization. Explore building for production and framework integrations. We'll set up Vite projects, configure for different frameworks, and appreciate the development experience. Vite has transformed front-end tooling.",
+    "author": "Veltryn Team",
+    "date": "2023-11-05",
+    "category": "Web Development",
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800"
+  },
+  {
+    "id": 73,
+    "title": "Selenium Automated Testing",
+    "excerpt": "Automate browser testing with Selenium",
+    "content": "Selenium enables automated browser testing across browsers. Learn WebDriver, locators, waits, and test organization. Explore Selenium Grid for parallel testing. We'll write comprehensive test suites, implement page object pattern, and integrate with CI/CD. Automated testing ensures application quality.",
+    "author": "Veltryn Team",
+    "date": "2023-11-04",
+    "category": "Testing",
+    "image": "https://images.unsplash.com/photo-1516116216624-53e697fedbea?w=800"
+  },
+  {
+    "id": 74,
+    "title": "Postman API Development",
+    "excerpt": "Design, test, and document APIs",
+    "content": "Postman is essential for API development. Learn collections, environments, tests, and mock servers. Explore automated testing and documentation generation. We'll design APIs, write comprehensive tests, and generate documentation. Postman streamlines API development workflows.",
+    "author": "Veltryn Team",
+    "date": "2023-11-03",
+    "category": "API Development",
+    "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800"
+  },
+  {
+    "id": 75,
+    "title": "Figma Design Collaboration",
+    "excerpt": "Design interfaces with team collaboration",
+    "content": "Figma enables collaborative interface design. Learn components, auto-layout, prototyping, and design systems. Explore developer handoff and version control. We'll design complete interfaces, create reusable components, and collaborate with teams. Figma has revolutionized design workflows.",
+    "author": "Veltryn Team",
+    "date": "2023-11-02",
+    "category": "Design",
+    "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800"
+  },
+  {
+    "id": 76,
+    "title": "Jira Project Management",
+    "excerpt": "Manage agile projects effectively",
+    "content": "Jira is popular for agile project management. Learn boards, workflows, automation, and reporting. Explore integrations and customization. We'll set up projects, configure workflows, and track progress. Jira helps teams organize and track work.",
+    "author": "Veltryn Team",
+    "date": "2023-11-01",
+    "category": "Project Management",
+    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800"
+  },
+  {
+    "id": 77,
+    "title": "Unity Game Development",
+    "excerpt": "Create games with Unity engine",
+    "content": "Unity is a popular game development platform. Learn C# scripting, physics, animation, and UI. Explore 2D and 3D game development. We'll build complete games, implement game mechanics, and deploy to multiple platforms. Unity makes game development accessible.",
+    "author": "Veltryn Team",
+    "date": "2023-10-31",
+    "category": "Game Development",
+    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=800"
+  },
+  {
+    "id": 78,
+    "title": "Unreal Engine Game Development",
+    "excerpt": "Build AAA-quality games with Unreal",
+    "content": "Unreal Engine powers AAA games with stunning graphics. Learn Blueprints, C++, materials, and lighting. Explore landscape tools and animation. We'll create impressive games, implement advanced graphics, and optimize performance. Unreal Engine offers professional-grade tools.",
+    "author": "Veltryn Team",
+    "date": "2023-10-30",
+    "category": "Game Development",
+    "image": "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?w=800"
+  },
+  {
+    "id": 79,
+    "title": "Blender 3D Modeling",
+    "excerpt": "Create 3D models and animations",
+    "content": "Blender is powerful free 3D creation software. Learn modeling, texturing, lighting, and animation. Explore sculpting and simulation. We'll create 3D assets, animate characters, and render beautiful scenes. Blender is used in films, games, and visualization.",
+    "author": "Veltryn Team",
+    "date": "2023-10-29",
+    "category": "3D Graphics",
+    "image": "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800"
+  },
+  {
+    "id": 80,
+    "title": "Adobe Photoshop Essentials",
+    "excerpt": "Master digital image editing",
+    "content": "Photoshop is the industry standard for image editing. Learn layers, selections, masking, and retouching. Explore filters and adjustment layers. We'll edit photos professionally, create composites, and prepare graphics for web and print. Photoshop skills are valuable across industries.",
+    "author": "Veltryn Team",
+    "date": "2023-10-28",
+    "category": "Design",
+    "image": "https://images.unsplash.com/photo-1572044162444-ad60f128bdea?w=800"
+  },
+  {
+    "id": 81,
+    "title": "Adobe Illustrator Vector Graphics",
+    "excerpt": "Create scalable vector artwork",
+    "content": "Illustrator is perfect for vector graphics. Learn pen tool, shapes, typography, and color. Explore logo design and illustration. We'll create logos, icons, and illustrations that scale perfectly. Vector graphics are essential for modern design.",
+    "author": "Veltryn Team",
+    "date": "2023-10-27",
+    "category": "Design",
+    "image": "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800"
+  },
+  {
+    "id": 82,
+    "title": "Premiere Pro Video Editing",
+    "excerpt": "Professional video editing workflows",
+    "content": "Premiere Pro is industry-standard video editing software. Learn timeline editing, effects, color correction, and audio. Explore multicam and workflow optimization. We'll edit professional videos, add effects, and export for various platforms. Video editing skills are increasingly valuable.",
+    "author": "Veltryn Team",
+    "date": "2023-10-26",
+    "category": "Video Production",
+    "image": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800"
+  },
+  {
+    "id": 83,
+    "title": "After Effects Motion Graphics",
+    "excerpt": "Create stunning motion graphics and VFX",
+    "content": "After Effects enables creating motion graphics and visual effects. Learn keyframing, expressions, tracking, and compositing. Explore plugins and workflows. We'll create animations, motion graphics, and visual effects. After Effects is essential for motion design.",
+    "author": "Veltryn Team",
+    "date": "2023-10-25",
+    "category": "Motion Design",
+    "image": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800"
+  },
+  {
+    "id": 84,
+    "title": "DaVinci Resolve Color Grading",
+    "excerpt": "Professional color grading and finishing",
+    "content": "DaVinci Resolve offers professional color grading tools. Learn color wheels, curves, tracking, and HDR. Explore the free version's capabilities. We'll color grade footage professionally, create looks, and understand color theory. Color grading transforms video aesthetics.",
+    "author": "Veltryn Team",
+    "date": "2023-10-24",
+    "category": "Video Production",
+    "image": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800"
+  },
+  {
+    "id": 85,
+    "title": "Logic Pro Music Production",
+    "excerpt": "Create music with professional DAW",
+    "content": "Logic Pro is Apple's professional music production software. Learn MIDI, audio recording, mixing, and plugins. Explore virtual instruments and sound design. We'll produce complete tracks, mix audio, and understand music production. Logic Pro is popular among professionals.",
+    "author": "Veltryn Team",
+    "date": "2023-10-23",
+    "category": "Music Production",
+    "image": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800"
+  },
+  {
+    "id": 86,
+    "title": "Ableton Live Electronic Music",
+    "excerpt": "Produce electronic music and perform live",
+    "content": "Ableton Live combines production and performance. Learn session view, warping, instruments, and effects. Explore MIDI controllers and live performance. We'll produce electronic music, create loops, and prepare live sets. Ableton is beloved by electronic musicians.",
+    "author": "Veltryn Team",
+    "date": "2023-10-22",
+    "category": "Music Production",
+    "image": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800"
+  },
+  {
+    "id": 87,
+    "title": "Pro Tools Audio Engineering",
+    "excerpt": "Industry-standard audio recording and mixing",
+    "content": "Pro Tools is the standard in professional audio. Learn recording, editing, mixing, and automation. Explore plugins and workflows. We'll record and mix professional audio, understand signal flow, and prepare for mastering. Pro Tools skills are valuable in audio production.",
+    "author": "Veltryn Team",
+    "date": "2023-10-21",
+    "category": "Audio Production",
+    "image": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800"
+  },
+  {
+    "id": 88,
+    "title": "FL Studio Beat Making",
+    "excerpt": "Create beats and produce music",
+    "content": "FL Studio is popular for beat making and production. Learn piano roll, mixer, patterns, and plugins. Explore sampling and sound design. We'll create beats, arrange tracks, and produce complete songs. FL Studio's workflow is intuitive and powerful.",
+    "author": "Veltryn Team",
+    "date": "2023-10-20",
+    "category": "Music Production",
+    "image": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800"
+  },
+  {
+    "id": 89,
+    "title": "Synthesis and Sound Design",
+    "excerpt": "Create unique sounds from scratch",
+    "content": "Sound design involves creating audio from synthesis and processing. Learn synthesizer types, modulation, filters, and effects. Explore sampling and layering. We'll design sounds for music and media, understand synthesis principles, and use various synthesizers. Sound design is creative and technical.",
+    "author": "Veltryn Team",
+    "date": "2023-10-19",
+    "category": "Audio Production",
+    "image": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800"
+  },
+  {
+    "id": 90,
+    "title": "Mixing and Mastering Fundamentals",
+    "excerpt": "Polish your audio productions",
+    "content": "Mixing and mastering prepare audio for release. Learn EQ, compression, reverb, and stereo imaging. Explore loudness standards and delivery formats. We'll mix tracks professionally, master for streaming and physical media, and understand critical listening. These skills are essential for quality audio.",
+    "author": "Veltryn Team",
+    "date": "2023-10-18",
+    "category": "Audio Production",
+    "image": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800"
+  },
+  {
+    "id": 91,
+    "title": "Photography Basics",
+    "excerpt": "Master camera settings and composition",
+    "content": "Photography combines technical skill and artistic vision. Learn exposure triangle, composition rules, and camera modes. Explore lighting and post-processing. We'll capture beautiful images, understand camera settings, and develop photographic eye. Photography skills are valuable personally and professionally.",
+    "author": "Veltryn Team",
+    "date": "2023-10-17",
+    "category": "Photography",
+    "image": "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=800"
+  },
+  {
+    "id": 92,
+    "title": "Lightroom Photo Editing",
+    "excerpt": "Organize and edit photos professionally",
+    "content": "Lightroom streamlines photo editing and organization. Learn catalogs, develop module, presets, and batch processing. Explore color correction and local adjustments. We'll edit photos efficiently, create consistent looks, and manage large photo libraries. Lightroom is essential for photographers.",
+    "author": "Veltryn Team",
+    "date": "2023-10-16",
+    "category": "Photography",
+    "image": "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=800"
+  },
+  {
+    "id": 93,
+    "title": "Portrait Photography Techniques",
+    "excerpt": "Capture stunning portraits",
+    "content": "Portrait photography focuses on capturing people. Learn lighting patterns, posing, and connection with subjects. Explore studio and natural light. We'll take professional portraits, direct subjects, and create flattering images. Portrait photography is both technical and interpersonal.",
+    "author": "Veltryn Team",
+    "date": "2023-10-15",
+    "category": "Photography",
+    "image": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800"
+  },
+  {
+    "id": 94,
+    "title": "Landscape Photography",
+    "excerpt": "Capture breathtaking landscapes",
+    "content": "Landscape photography captures natural beauty. Learn composition, timing, filters, and HDR techniques. Explore planning and post-processing. We'll photograph stunning landscapes, work with challenging light, and create impactful images. Landscape photography requires patience and vision.",
+    "author": "Veltryn Team",
+    "date": "2023-10-14",
+    "category": "Photography",
+    "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800"
+  },
+  {
+    "id": 95,
+    "title": "Product Photography for E-commerce",
+    "excerpt": "Showcase products professionally",
+    "content": "Product photography sells products online. Learn lighting setups, backgrounds, and retouching. Explore 360-degree photos and consistency. We'll photograph products professionally, create clean images, and optimize for e-commerce. Good product photos increase sales.",
+    "author": "Veltryn Team",
+    "date": "2023-10-13",
+    "category": "Photography",
+    "image": "https://images.unsplash.com/photo-1523726491678-bf852e717f6a?w=800"
+  },
+  {
+    "id": 96,
+    "title": "SEO Fundamentals",
+    "excerpt": "Optimize websites for search engines",
+    "content": "SEO improves website visibility in search results. Learn keyword research, on-page optimization, technical SEO, and link building. Explore tools and analytics. We'll optimize websites, create content strategies, and measure results. SEO drives organic traffic and business growth.",
+    "author": "Veltryn Team",
+    "date": "2023-10-12",
+    "category": "Digital Marketing",
+    "image": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?w=800"
+  },
+  {
+    "id": 97,
+    "title": "Content Marketing Strategy",
+    "excerpt": "Create and distribute valuable content",
+    "content": "Content marketing attracts and engages audiences. Learn content planning, creation, distribution, and measurement. Explore different content types and channels. We'll develop content strategies, create engaging content, and build audiences. Content marketing builds trust and drives business results.",
+    "author": "Veltryn Team",
+    "date": "2023-10-11",
+    "category": "Digital Marketing",
+    "image": "https://images.unsplash.com/photo-1533750516457-a7f992034fec?w=800"
+  },
+  {
+    "id": 98,
+    "title": "Social Media Marketing",
+    "excerpt": "Build brand presence on social platforms",
+    "content": "Social media marketing connects brands with audiences. Learn platform strategies, content creation, community management, and advertising. Explore analytics and growth tactics. We'll build social media presence, create engaging content, and measure performance. Social media is essential for modern marketing.",
+    "author": "Veltryn Team",
+    "date": "2023-10-10",
+    "category": "Digital Marketing",
+    "image": "https://images.unsplash.com/photo-1611926653458-09294b3142bf?w=800"
+  },
+  {
+    "id": 99,
+    "title": "Email Marketing Campaigns",
+    "excerpt": "Build and nurture email audiences",
+    "content": "Email marketing provides direct communication with audiences. Learn list building, segmentation, copywriting, and automation. Explore A/B testing and deliverability. We'll create effective campaigns, write compelling emails, and optimize performance. Email marketing offers high ROI when done well.",
+    "author": "Veltryn Team",
+    "date": "2023-10-09",
+    "category": "Digital Marketing",
+    "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=800"
+  },
+  {
+    "id": 100,
+    "title": "Google Ads and PPC Marketing",
+    "excerpt": "Drive targeted traffic with paid advertising",
+    "content": "PPC advertising delivers immediate targeted traffic. Learn Google Ads setup, keyword targeting, ad creation, and bidding strategies. Explore display and shopping ads. We'll create profitable campaigns, optimize ad spend, and measure ROI. PPC complements organic marketing efforts and drives quick results when managed properly.",
+    "author": "Veltryn Team",
+    "date": "2023-10-08",
+    "category": "Digital Marketing",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800"
+  }
+]

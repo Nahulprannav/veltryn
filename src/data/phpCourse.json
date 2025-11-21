@@ -1,0 +1,18 @@
+{
+  "courseId": "php",
+  "courseName": "PHP & MySQL Development - 100 Level Complete Course",
+  "description": "Master PHP and MySQL from basics to building complete web applications with authentication, CRUD operations, and deployment.",
+  "duration": "10 weeks",
+  "level": "Beginner to Intermediate",
+  "students": "2,800+",
+  "totalLevels": 100,
+  "pointsPerLevel": 40,
+  "sections": [
+    {"section": "PHP BASICS", "levels": "1-20", "topics": ["Syntax", "Variables", "Operators", "Functions", "Arrays", "File Handling"]},
+    {"section": "MYSQL BASICS", "levels": "21-40", "topics": ["Database Design", "CRUD", "Joins", "Indexes", "Views", "Transactions"]},
+    {"section": "PHP + MYSQL CONNECTION", "levels": "41-60", "topics": ["mysqli vs PDO", "CRUD Operations", "Login System", "Image Upload", "Pagination"]},
+    {"section": "ADVANCED PHP", "levels": "61-80", "topics": ["OOP", "Security", "APIs", "Email", "Authentication", "Sessions"]},
+    {"section": "APPLICATION DEVELOPMENT", "levels": "81-100", "topics": ["Complete Projects", "Deployment", "Testing", "Security Review"]}
+  ],
+  "finalProjects": ["Social Media App", "E-commerce Website", "College Management System", "Blog with Admin Panel", "Job Portal"]
+}
