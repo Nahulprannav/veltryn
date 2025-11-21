@@ -1,5 +1,12 @@
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { hashPassword, isHashedPassword } from '../utils/hash';
+import {
+  firebaseEnabled,
+  signInWithGoogleFirebase,
+  signInWithGithubFirebase,
+  signUpWithEmailFirebase,
+  signInWithEmailFirebase,
+} from '../utils/firebaseAuth';
 
 interface User {
   id: string;
@@ -86,6 +93,25 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     const id = identifier.trim();
     let existing = findUserByIdentifier(id);
 
+    // If Firebase is configured and identifier looks like email, try Firebase sign-in first
+    if (firebaseEnabled() && id.includes('@') && password) {
+      try {
+        const fbUser = await signInWithEmailFirebase(id, password);
+        // map firebase user to our local user shape and persist if absent
+        const users = getUsers();
+        let local = users.find((u: any) => u.email === fbUser.email || u.id === fbUser.uid);
+        if (!local) {
+          local = { id: fbUser.uid, email: fbUser.email, displayName: fbUser.displayName };
+          users.push(local);
+          saveUsers(users);
+        }
+        setUser(local as User);
+        return;
+      } catch (err) {
+        // fall through to local fallback
+      }
+    }
+
     if (!existing) {
       // If no such user, create a guest account only if identifier looks like an email
       if (id.includes('@')) {
@@ -94,7 +120,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
           email: id,
           displayName: id.split('@')[0],
           isAdmin: id === ADMIN_EMAIL && password === ADMIN_PASSWORD,
-          // store password if provided
+          // store password if provided (hashed on migration/signup)
           password: password || undefined,
         };
         const users = getUsers();
@@ -134,6 +160,24 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       return;
     }
 
+    // If Firebase is configured, create there and map to local user
+    if (firebaseEnabled()) {
+      try {
+        const fbUser = await signUpWithEmailFirebase(email, password);
+        const newUser = {
+          id: fbUser.uid,
+          email: fbUser.email,
+          displayName: fbUser.displayName || displayName || email.split('@')[0],
+        };
+        users.push(newUser);
+        saveUsers(users);
+        setUser(newUser);
+        return;
+      } catch (err) {
+        // fall back to local signup
+      }
+    }
+
     const isAdmin = email === ADMIN_EMAIL && password === ADMIN_PASSWORD;
     const hashed = await hashPassword(password || '');
     const newUser = {
@@ -150,7 +194,24 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   };
 
   const loginWithGoogle = async () => {
-    // Mock Google OAuth and persist user
+    // If Firebase is configured, use it; otherwise mock Google OAuth and persist user
+    if (firebaseEnabled()) {
+      try {
+        const fbUser = await signInWithGoogleFirebase();
+        const users = getUsers();
+        let existing = users.find((u: any) => u.email === fbUser.email || u.id === fbUser.uid);
+        if (!existing) {
+          existing = { id: fbUser.uid, email: fbUser.email, displayName: fbUser.displayName, photoURL: fbUser.photoURL };
+          users.push(existing);
+          saveUsers(users);
+        }
+        setUser(existing as User);
+        return;
+      } catch (err) {
+        // fall through to mock
+      }
+    }
+
     await new Promise((resolve) => setTimeout(resolve, 300));
     const users = getUsers();
     const email = 'google_user@veltryn.local';
@@ -169,7 +230,23 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   };
 
   const loginWithGithub = async () => {
-    // Mock GitHub OAuth and persist user
+    if (firebaseEnabled()) {
+      try {
+        const fbUser = await signInWithGithubFirebase();
+        const users = getUsers();
+        let existing = users.find((u: any) => u.email === fbUser.email || u.id === fbUser.uid);
+        if (!existing) {
+          existing = { id: fbUser.uid, email: fbUser.email, displayName: fbUser.displayName, photoURL: fbUser.photoURL };
+          users.push(existing);
+          saveUsers(users);
+        }
+        setUser(existing as User);
+        return;
+      } catch (err) {
+        // fall through to mock
+      }
+    }
+
     await new Promise((resolve) => setTimeout(resolve, 300));
     const users = getUsers();
     const email = 'github_user@veltryn.local';
