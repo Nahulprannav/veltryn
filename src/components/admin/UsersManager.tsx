@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useTheme } from '../../contexts/ThemeContext';
 import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
 import { Input } from '../ui/input';
@@ -11,32 +11,63 @@ import { toast } from 'sonner@2.0.3';
 export function UsersManager() {
   const { theme } = useTheme();
   const [searchTerm, setSearchTerm] = useState('');
-  const [users, setUsers] = useState([
-    {
-      id: '1',
-      name: 'John Doe',
-      email: 'john@example.com',
-      role: 'User',
-      hasEditAccess: false,
-      joinedDate: '2024-01-10'
-    },
-    {
-      id: '2',
-      name: 'Jane Smith',
-      email: 'jane@example.com',
-      role: 'Editor',
-      hasEditAccess: true,
-      joinedDate: '2024-01-12'
-    },
-  ]);
+  const [users, setUsers] = useState<any[]>(() => {
+    try {
+      const u = JSON.parse(localStorage.getItem('users') || '[]');
+      if (Array.isArray(u) && u.length) return u.map((x: any) => ({
+        id: x.id || x.email || Math.random().toString(36).substr(2,9),
+        name: x.displayName || x.name || (x.email ? x.email.split('@')[0] : 'User'),
+        email: x.email || '',
+        role: x.role || 'User',
+        hasEditAccess: !!x.isEditor,
+        joinedDate: x.joinedDate || (x.createdAt ? new Date(x.createdAt).toISOString().split('T')[0] : new Date().toISOString().split('T')[0])
+      }));
+      return [];
+    } catch {
+      return [];
+    }
+  });
+
+  useEffect(() => {
+    const onCustom = () => {
+      try {
+        const u = JSON.parse(localStorage.getItem('users') || '[]');
+        setUsers(Array.isArray(u) ? u : []);
+      } catch {
+        setUsers([]);
+      }
+    };
+    window.addEventListener('storage', onCustom);
+    window.addEventListener('realtime:users', onCustom as EventListener);
+    return () => { window.removeEventListener('storage', onCustom); window.removeEventListener('realtime:users', onCustom as EventListener); };
+  }, []);
 
   const toggleEditAccess = (userId: string) => {
-    setUsers(users.map(u => 
-      u.id === userId 
-        ? { ...u, hasEditAccess: !u.hasEditAccess, role: !u.hasEditAccess ? 'Editor' : 'User' }
-        : u
-    ));
+    const next = users.map(u => u.id === userId ? { ...u, hasEditAccess: !u.hasEditAccess, role: !u.hasEditAccess ? 'Editor' : 'User' } : u);
+    setUsers(next);
+    // persist to localStorage
+    try {
+      const raw = JSON.parse(localStorage.getItem('users') || '[]');
+      const updated = raw.map((r: any) => r.id === userId ? { ...r, isEditor: !r.isEditor } : r);
+      localStorage.setItem('users', JSON.stringify(updated));
+      window.dispatchEvent(new CustomEvent('realtime:users', { detail: { type: 'updated', userId } }));
+    } catch {
+      // ignore
+    }
     toast.success('User permissions updated');
+  };
+
+  const handleDelete = (userId: string) => {
+    if (!window.confirm('Delete this user?')) return;
+    const next = users.filter(u => u.id !== userId);
+    setUsers(next);
+    try {
+      const raw = JSON.parse(localStorage.getItem('users') || '[]');
+      const updated = raw.filter((r: any) => r.id !== userId);
+      localStorage.setItem('users', JSON.stringify(updated));
+      window.dispatchEvent(new CustomEvent('realtime:users', { detail: { type: 'deleted', userId } }));
+    } catch {}
+    toast.success('User deleted');
   };
 
   const filteredUsers = users.filter(u =>
